@@ -24,6 +24,10 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "target"
   - "dbt_modules"
 
+packages:
+  - package: fivetran/github
+    version: 0.3.0
+
 
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
